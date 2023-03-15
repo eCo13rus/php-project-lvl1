@@ -2,11 +2,14 @@
     "name": "hexlet/code",
     "description": "project-brain-games",
     "type": "project",
-        "license": "MIT",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
-        }
+        },
+        "files": [
+            "src/Cli.php"
+        ]
     },
     "authors": [
         {
@@ -14,7 +17,9 @@
             "email": "asd.mat@mail.ru"
         }
     ],
-    "require": {},
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.17"
+    },
     
     "bin": [
         "bin/brain-games"
