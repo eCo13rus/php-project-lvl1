@@ -14,12 +14,17 @@ $ make install
 ```
 # List of the Games
 
-### Brain even
+### Brain Even
 - make brain-even
 
-<a href="https://asciinema.org/a/akvvd98a5w6siyshQonwG83nM" target="_blank"><img src="https://asciinema.org/a/akvvd98a5w6siyshQonwG83nM.svg" /></a>
+<a href="https://asciinema.org/a/aZQDLdmj2BKL5nXwAeSMVlj6m" target="_blank"><img src="https://asciinema.org/a/aZQDLdmj2BKL5nXwAeSMVlj6m.svg" /></a>
 
-### Brain calc
+### Brain Calc
 - make brain-calc
 
-<a href="https://asciinema.org/a/BkZ4mxlah4E6KsTBOqQI0Lnzw" target="_blank"><img src="https://asciinema.org/a/BkZ4mxlah4E6KsTBOqQI0Lnzw.svg" /></a>
+<a href="https://asciinema.org/a/aO7GMOPwGerIeT72lZ36RoPAq" target="_blank"><img src="https://asciinema.org/a/aO7GMOPwGerIeT72lZ36RoPAq.svg" /></a>
+
+### Brain Gcd
+- make brain-gcd
+
+<a href="https://asciinema.org/a/cj8Vvixc0imBXQngKab1w9wng" target="_blank"><img src="https://asciinema.org/a/cj8Vvixc0imBXQngKab1w9wng.svg" /></a>

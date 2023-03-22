@@ -12,4 +12,6 @@ brain-even:
 		composer exec brain-even
 brain-calc:
 		composer exec brain-calc
+brain-gcd:
+		composer exec brain-gcd
 
