@@ -14,12 +14,12 @@ $ make install
 ```
 # List of the Games
 
-### Brain-even
+### Brain even
 - make brain-even
 
 <a href="https://asciinema.org/a/akvvd98a5w6siyshQonwG83nM" target="_blank"><img src="https://asciinema.org/a/akvvd98a5w6siyshQonwG83nM.svg" /></a>
 
-### Brain-calc
+### Brain calc
 - make brain-calc
 
 <a href="https://asciinema.org/a/BkZ4mxlah4E6KsTBOqQI0Lnzw" target="_blank"><img src="https://asciinema.org/a/BkZ4mxlah4E6KsTBOqQI0Lnzw.svg" /></a>
