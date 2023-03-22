@@ -23,6 +23,3 @@ function isEvenRightAnswer(int $number)
     $isEven = (bool)($number % 2) ? false : true;
     return $isEven ? 'yes' : 'no';
 }
-
-
-?>

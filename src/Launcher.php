@@ -26,4 +26,3 @@ function launch(string $rules, array $rounds)
 
     line('Congratulations, %s!', $name);
 }
-?>
