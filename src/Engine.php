@@ -6,7 +6,7 @@ use function cli\line;
 
 const ROUNDS_COUNT = 3;
 
-function launch(string $rules, array $rounds)
+function engine(string $rules, array $rounds)
 {
     $name = greeting();
 

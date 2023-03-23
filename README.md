@@ -29,7 +29,12 @@ $ make install
 
 <a href="https://asciinema.org/a/cj8Vvixc0imBXQngKab1w9wng" target="_blank"><img src="https://asciinema.org/a/cj8Vvixc0imBXQngKab1w9wng.svg" /></a>
 
-### Brain-progression
+### Brain progression
 - make brain-progression
 
 <a href="https://asciinema.org/a/ufdSKKOg3uJhTfT3WwIBlF4Aa" target="_blank"><img src="https://asciinema.org/a/ufdSKKOg3uJhTfT3WwIBlF4Aa.svg" /></a>
+
+### Brain prime
+- make brain-prime
+
+<a href="https://asciinema.org/a/n42GVyOwiedNMoaYHkqj0O2rk" target="_blank"><img src="https://asciinema.org/a/n42GVyOwiedNMoaYHkqj0O2rk.svg" /></a>

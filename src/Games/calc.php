@@ -21,7 +21,7 @@ function calcGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return launch(CALC_RULES, $rounds);
+    return engine(CALC_RULES, $rounds);
 }
 
 function isCalcRightAnswer(int $operand1, int $operand2, string $operator)

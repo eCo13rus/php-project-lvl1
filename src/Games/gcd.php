@@ -17,7 +17,7 @@ function gcdGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return launch(GCD_RULES, $rounds);
+    return engine(GCD_RULES, $rounds);
 }
 
 function gcd(int $a, int $b)

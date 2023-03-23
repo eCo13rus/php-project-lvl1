@@ -15,7 +15,7 @@ function evenGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return launch(EVEN_RULES, $rounds);
+    return engine(EVEN_RULES, $rounds);
 }
 
 function isEvenRightAnswer(int $number)
