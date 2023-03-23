@@ -4,6 +4,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/eCo13rus/php-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/eCo13rus/php-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d4584929471fc16f22b4/maintainability)](https://codeclimate.com/github/eCo13rus/php-project-lvl1/maintainability)
+[![Lint project](https://github.com/AslanAV/php-project-lvl1/actions/workflows/Lint%20project.yml/badge.svg)](https://github.com/AslanAV/php-project-lvl1/actions/workflows/Lint%20project.yml)
 
 ## Setup
 
