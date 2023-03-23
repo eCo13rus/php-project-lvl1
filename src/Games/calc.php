@@ -36,6 +36,9 @@ function isCalcRightAnswer(int $operand1, int $operand2, string $operator)
         case '*':
             $result = $operand1 * $operand2;
             break;
+        default:
+            $result = false;
+
     }
 
     return $result;

@@ -18,7 +18,7 @@ function primeGame()
     return engine(PRIME_RULES, $rounds);
 }
 
-function isPrime($num)
+function isPrime(int $num)
 {
     if ($num == 1 || $num == 0) {
         return false;
