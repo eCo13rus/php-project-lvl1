@@ -38,7 +38,6 @@ function isCalcRightAnswer(int $operand1, int $operand2, string $operator)
             break;
         default:
             $result = false;
-
     }
 
     return $result;
