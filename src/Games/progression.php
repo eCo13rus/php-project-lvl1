@@ -4,9 +4,8 @@ namespace Brain\Games;
 
 const PGS_RULES = 'What number is missing in the progression?';
 const PGS_START_RANGE = [0, 10];
-const PGS_STEP_RANGE = [1, 10];
+const PGS_STEP_RANGE = [0, 20];
 const PGS_LENGTH_OF_SEQUENCE = 10;
-const PGS_INDEX_RANGE = [0, 30];
 
 function progressionGame()
 {
@@ -22,7 +21,7 @@ function progressionGame()
             $sequence[$x] = $start + ($x * $step);
         }
 
-        $missingValueIndex = rand(...PGS_INDEX_RANGE);
+        $missingValueIndex = rand(0, PGS_LENGTH_OF_SEQUENCE - 1);
         $rightAnswer = $sequence[$missingValueIndex];
         $sequence[$missingValueIndex] = '..';
         $question = implode(' ', $sequence);
