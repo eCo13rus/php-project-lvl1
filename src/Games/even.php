@@ -2,7 +2,7 @@
 
 namespace Brain\Games\Even;
 
-use function Brain\Games\Engine;
+use function Brain\Games\engine;
 
 use const Brain\Games\ROUNDS_COUNT;
 
