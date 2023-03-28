@@ -1,6 +1,10 @@
 <?php
 
-namespace Brain\Games;
+namespace Brain\Games\progression;
+
+use function Brain\Games\engine;
+
+use const Brain\Games\ROUNDS_COUNT;
 
 const PGS_RULES = 'What number is missing in the progression?';
 const PGS_START_RANGE = [0, 10];

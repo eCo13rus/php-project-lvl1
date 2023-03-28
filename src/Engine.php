@@ -14,14 +14,12 @@ function engine(string $rules, array $rounds)
 
     foreach ($rounds as [$question, $rightAnswer]) {
         $answer = askQuestion($question);
-        $result = $answer == $rightAnswer;
-        if (!$result) {
+        if ($answer == $rightAnswer) {
+            line('Correct!');
+        } else {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $rightAnswer);
             line('Let\'s try again, %s!', $name);
-            return;
         }
-
-        line('Correct!');
     }
 
     line('Congratulations, %s!', $name);

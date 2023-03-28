@@ -1,6 +1,10 @@
 <?php
 
-namespace Brain\Games;
+namespace Brain\Games\Even;
+
+use function Brain\Games\Engine;
+
+use const Brain\Games\ROUNDS_COUNT;
 
 const EVEN_RULES = 'Answer "yes" if the number is even, otherwise answer "no".';
 const EVEN_RANGE = [0, 100];
@@ -11,7 +15,7 @@ function evenGame()
 
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $question = rand(...EVEN_RANGE);
-        $rightAnswer = isEvenRightAnswer($question);
+        $rightAnswer = isEvenRightAnswer($question) ? 'yes' : 'no';
         $rounds[] = [$question, $rightAnswer];
     }
 
@@ -20,6 +24,5 @@ function evenGame()
 
 function isEvenRightAnswer(int $number)
 {
-    $isEven = (bool)($number % 2) ? false : true;
-    return $isEven ? 'yes' : 'no';
+    return $number % 2 ? false : true;
 }

@@ -1,9 +1,14 @@
 <?php
 
-namespace Brain\Games;
+namespace Brain\Games\Gcd;
+
+use function Brain\Games\engine;
+
+use const Brain\Games\ROUNDS_COUNT;
 
 const GCD_RULES = 'Find the greatest common divisor of given numbers.';
 const GCD_RANGE = [1, 77];
+
 
 function gcdGame()
 {

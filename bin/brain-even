@@ -3,6 +3,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Brain\Games\evenGame;
+use function Brain\Games\Even\evenGame;
 
 evenGame();
