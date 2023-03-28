@@ -24,5 +24,5 @@ function evenGame()
 
 function isEvenRightAnswer(int $number)
 {
-    return $number % 2 ? false : true;
+    return $number % 2 === 0;
 }
