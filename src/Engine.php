@@ -13,8 +13,8 @@ function engine(string $rules, array $rounds)
     line($rules);
 
     foreach ($rounds as [$question, $rightAnswer]) {
-        $answer = (int)(askQuestion($question));
-        if ($answer !== $rightAnswer) {
+        $answer = askQuestion($question);
+        if ($answer !== (string)$rightAnswer) {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $rightAnswer);
             line("Let's try again, %s!", $name);
             return;
