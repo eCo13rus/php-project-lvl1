@@ -33,9 +33,5 @@ function gcd(int $a, int $b)
 
     $r = $a % $b;
 
-    if ($r === 0) {
-        return $b;
-    }
-
     return gcd($b, $r);
 }
