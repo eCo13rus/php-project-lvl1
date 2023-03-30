@@ -13,11 +13,3 @@ function greeting()
 
     return $name;
 }
-
-function askQuestion(string $question)
-{
-    line("Question: %s", $question);
-    $answer = prompt('Your answer');
-
-    return $answer;
-}

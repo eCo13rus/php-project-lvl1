@@ -2,7 +2,7 @@
 
 namespace Brain\Games\Prime;
 
-use function Brain\Games\engine;
+use function Brain\Games\Launch;
 
 use const Brain\Games\ROUNDS_COUNT;
 
@@ -20,7 +20,7 @@ function primeGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return engine(PRIME_RULES, $rounds);
+    return Launch(PRIME_RULES, $rounds);
 }
 
 function isPrime(int $num)

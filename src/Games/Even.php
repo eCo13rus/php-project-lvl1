@@ -2,7 +2,7 @@
 
 namespace Brain\Games\Even;
 
-use function Brain\Games\engine;
+use function Brain\Games\Launch;
 
 use const Brain\Games\ROUNDS_COUNT;
 
@@ -15,14 +15,14 @@ function evenGame()
 
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $question = rand(...EVEN_RANGE);
-        $rightAnswer = isEvenRightAnswer($question) ? 'yes' : 'no';
+        $rightAnswer = isEven($question) ? 'yes' : 'no';
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return engine(EVEN_RULES, $rounds);
+    return Launch(EVEN_RULES, $rounds);
 }
 
-function isEvenRightAnswer(int $number)
+function isEven(int $number)
 {
     return $number % 2 === 0;
 }

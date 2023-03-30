@@ -3,10 +3,11 @@
 namespace Brain\Games;
 
 use function cli\line;
+use function cli\prompt;
 
 const ROUNDS_COUNT = 3;
 
-function engine(string $rules, array $rounds)
+function Launch(string $rules, array $rounds)
 {
     $name = greeting();
 
@@ -24,4 +25,12 @@ function engine(string $rules, array $rounds)
     }
 
     line("Congratulations, %s!", $name);
+}
+
+function askQuestion(string $question)
+{
+    line("Question: %s", $question);
+    $answer = prompt('Your answer');
+
+    return $answer;
 }

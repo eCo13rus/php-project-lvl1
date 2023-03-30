@@ -2,7 +2,7 @@
 
 namespace Brain\Games\Gcd;
 
-use function Brain\Games\engine;
+use function Brain\Games\Launch;
 
 use const Brain\Games\ROUNDS_COUNT;
 
@@ -22,7 +22,7 @@ function gcdGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return engine(GCD_RULES, $rounds);
+    return Launch(GCD_RULES, $rounds);
 }
 
 function gcd(int $a, int $b)

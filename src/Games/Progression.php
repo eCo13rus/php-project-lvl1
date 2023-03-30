@@ -2,7 +2,7 @@
 
 namespace Brain\Games\progression;
 
-use function Brain\Games\engine;
+use function Brain\Games\Launch;
 
 use const Brain\Games\ROUNDS_COUNT;
 
@@ -33,5 +33,5 @@ function progressionGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    engine(PGS_RULES, $rounds);
+    Launch(PGS_RULES, $rounds);
 }
