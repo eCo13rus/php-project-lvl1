@@ -20,7 +20,7 @@ function primeGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return Launch(PRIME_RULES, $rounds);
+    return launch(PRIME_RULES, $rounds);
 }
 
 function isPrime(int $num)

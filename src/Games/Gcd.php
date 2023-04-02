@@ -22,7 +22,7 @@ function gcdGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return Launch(GCD_RULES, $rounds);
+    return launch(GCD_RULES, $rounds);
 }
 
 function gcd(int $a, int $b)

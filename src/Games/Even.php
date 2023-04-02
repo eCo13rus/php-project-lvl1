@@ -19,7 +19,7 @@ function evenGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return Launch(EVEN_RULES, $rounds);
+    return launch(EVEN_RULES, $rounds);
 }
 
 function isEven(int $number)

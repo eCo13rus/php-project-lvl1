@@ -33,5 +33,5 @@ function progressionGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    Launch(PGS_RULES, $rounds);
+    launch(PGS_RULES, $rounds);
 }

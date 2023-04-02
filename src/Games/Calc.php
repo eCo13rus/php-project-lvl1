@@ -23,7 +23,7 @@ function calcGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return Launch(CALC_RULES, $rounds);
+    return launch(CALC_RULES, $rounds);
 }
 
 function getCalcRightAnswer(int $operand1, int $operand2, string $operator)
