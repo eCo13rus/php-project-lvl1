@@ -2,7 +2,7 @@
 
 namespace Brain\Games\Gcd;
 
-use function Brain\Games\Launch;
+use function Brain\Games\launch;
 
 use const Brain\Games\ROUNDS_COUNT;
 
