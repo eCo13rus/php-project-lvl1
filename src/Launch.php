@@ -7,14 +7,15 @@ use function cli\prompt;
 
 const ROUNDS_COUNT = 3;
 
-function Launch(string $rules, array $rounds)
+function launch(string $rules, array $rounds)
 {
     $name = greeting();
 
     line($rules);
 
     foreach ($rounds as [$question, $rightAnswer]) {
-        $answer = askQuestion($question);
+        line("Question: %s", $question);
+        $answer = prompt('Your answer');
         if ($answer !== (string)$rightAnswer) {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $rightAnswer);
             line("Let's try again, %s!", $name);
@@ -25,12 +26,4 @@ function Launch(string $rules, array $rounds)
     }
 
     line("Congratulations, %s!", $name);
-}
-
-function askQuestion(string $question)
-{
-    line("Question: %s", $question);
-    $answer = prompt('Your answer');
-
-    return $answer;
 }
