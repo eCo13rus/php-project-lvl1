@@ -2,9 +2,9 @@
 
 namespace Brain\Games\Even;
 
-use function Brain\Games\launch;
+use function Brain\Games\Engine\launch;
 
-use const Brain\Games\ROUNDS_COUNT;
+use const Brain\Games\Engine\ROUNDS_COUNT;
 
 const EVEN_RULES = 'Answer "yes" if the number is even, otherwise answer "no".';
 const EVEN_RANGE = [0, 100];

@@ -2,9 +2,9 @@
 
 namespace Brain\Games\Progression;
 
-use function Brain\Games\launch;
+use function Brain\Games\Engine\launch;
 
-use const Brain\Games\ROUNDS_COUNT;
+use const Brain\Games\Engine\ROUNDS_COUNT;
 
 const PGS_RULES = 'What number is missing in the progression?';
 const PGS_START_RANGE = [0, 10];

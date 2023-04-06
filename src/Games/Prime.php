@@ -2,9 +2,9 @@
 
 namespace Brain\Games\Prime;
 
-use function Brain\Games\launch;
+use function Brain\Games\Engine\launch;
 
-use const Brain\Games\ROUNDS_COUNT;
+use const Brain\Games\Engine\ROUNDS_COUNT;
 
 const PRIME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const PRIME_RANGE = [0, 100];

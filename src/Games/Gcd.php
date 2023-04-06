@@ -2,9 +2,9 @@
 
 namespace Brain\Games\Gcd;
 
-use function Brain\Games\launch;
+use function Brain\Games\Engine\launch;
 
-use const Brain\Games\ROUNDS_COUNT;
+use const Brain\Games\Engine\ROUNDS_COUNT;
 
 const GCD_RULES = 'Find the greatest common divisor of given numbers.';
 const GCD_RANGE = [1, 77];

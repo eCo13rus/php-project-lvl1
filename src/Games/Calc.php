@@ -2,9 +2,9 @@
 
 namespace Brain\Games\Calc;
 
-use function Brain\Games\launch;
+use function Brain\Games\Engine\launch;
 
-use const Brain\Games\ROUNDS_COUNT;
+use const Brain\Games\Engine\ROUNDS_COUNT;
 
 const CALC_RANGE = [30, 50];
 const OPERATORS = ['+', '-', '*'];
