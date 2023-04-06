@@ -13,7 +13,9 @@ $ git clone https://github.com/eCo13rus/php-project-lvl1.git
 
 $ make install
 ```
-# Set of 5 console games "for the brain".
+# Description project:
+
+## Set of 5 console games "for the brain".
 
 ### Game Brain Even
 - To start the game, enter the command:
