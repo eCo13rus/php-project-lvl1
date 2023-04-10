@@ -1,6 +1,6 @@
 <?php
 
-namespace Brain\Games\Gcd;
+namespace BrainGames\Games\Gcd;
 
 use function BrainGames\Engine\launch;
 
