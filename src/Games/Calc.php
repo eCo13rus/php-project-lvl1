@@ -2,15 +2,15 @@
 
 namespace Brain\Games\Calc;
 
-use function Brain\Games\Engine\launch;
+use function BrainGames\Engine\launch;
 
-use const Brain\Games\Engine\ROUNDS_COUNT;
+use const BrainGames\Engine\ROUNDS_COUNT;
 
 const CALC_RANGE = [30, 50];
 const OPERATORS = ['+', '-', '*'];
-const CALC_RULES = 'What is the result of the expression?';
+const RULES_GAME = 'What is the result of the expression?';
 
-function calcGame()
+function playGame()
 {
     $rounds = [];
 
@@ -23,7 +23,7 @@ function calcGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return launch(CALC_RULES, $rounds);
+    return launch(RULES_GAME, $rounds);
 }
 
 function getCalcRightAnswer(int $operand1, int $operand2, string $operator)

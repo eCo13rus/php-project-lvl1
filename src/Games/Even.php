@@ -2,14 +2,14 @@
 
 namespace Brain\Games\Even;
 
-use function Brain\Games\Engine\launch;
+use function BrainGames\Engine\launch;
 
-use const Brain\Games\Engine\ROUNDS_COUNT;
+use const BrainGames\Engine\ROUNDS_COUNT;
 
-const EVEN_RULES = 'Answer "yes" if the number is even, otherwise answer "no".';
+const RULES_GAME = 'Answer "yes" if the number is even, otherwise answer "no".';
 const EVEN_RANGE = [0, 100];
 
-function evenGame()
+function playGame()
 {
     $rounds = [];
 
@@ -19,7 +19,7 @@ function evenGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return launch(EVEN_RULES, $rounds);
+    return launch(RULES_GAME, $rounds);
 }
 
 function isEven(int $number)

@@ -2,16 +2,16 @@
 
 namespace Brain\Games\Progression;
 
-use function Brain\Games\Engine\launch;
+use function BrainGames\Engine\launch;
 
-use const Brain\Games\Engine\ROUNDS_COUNT;
+use const BrainGames\Engine\ROUNDS_COUNT;
 
-const PGS_RULES = 'What number is missing in the progression?';
+const RULES_GAME = 'What number is missing in the progression?';
 const PGS_START_RANGE = [0, 10];
 const PGS_STEP_RANGE = [0, 20];
 const PGS_LENGTH_OF_SEQUENCE = 10;
 
-function progressionGame()
+function playGame()
 {
     $rounds = [];
 
@@ -33,5 +33,5 @@ function progressionGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    launch(PGS_RULES, $rounds);
+    launch(RULES_GAME, $rounds);
 }

@@ -2,15 +2,15 @@
 
 namespace Brain\Games\Prime;
 
-use function Brain\Games\Engine\launch;
+use function BrainGames\Engine\launch;
 
-use const Brain\Games\Engine\ROUNDS_COUNT;
+use const BrainGames\Engine\ROUNDS_COUNT;
 
-const PRIME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const RULES_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const PRIME_RANGE = [0, 100];
 
 
-function primeGame()
+function playGame()
 {
     $rounds = [];
 
@@ -20,7 +20,7 @@ function primeGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return launch(PRIME_RULES, $rounds);
+    return launch(RULES_GAME, $rounds);
 }
 
 function isPrime(int $num)

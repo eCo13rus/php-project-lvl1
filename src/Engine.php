@@ -1,11 +1,12 @@
 <?php
 
-namespace Brain\Games\Engine;
+namespace BrainGames\Engine;
 
-use function Brain\Games\Cli\greeting;
+use function BrainGames\Cli\greeting;
 use function cli\line;
 use function cli\prompt;
 
+const RULES_GAME = 'What number is missing in the progression?';
 const ROUNDS_COUNT = 3;
 
 function launch(string $rules, array $rounds)

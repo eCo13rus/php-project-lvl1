@@ -2,15 +2,15 @@
 
 namespace Brain\Games\Gcd;
 
-use function Brain\Games\Engine\launch;
+use function BrainGames\Engine\launch;
 
-use const Brain\Games\Engine\ROUNDS_COUNT;
+use const BrainGames\Engine\ROUNDS_COUNT;
 
-const GCD_RULES = 'Find the greatest common divisor of given numbers.';
+const RULES_GAME = 'Find the greatest common divisor of given numbers.';
 const GCD_RANGE = [1, 77];
 
 
-function gcdGame()
+function playGame()
 {
     $rounds = [];
 
@@ -22,7 +22,7 @@ function gcdGame()
         $rounds[] = [$question, $rightAnswer];
     }
 
-    return launch(GCD_RULES, $rounds);
+    return launch(RULES_GAME, $rounds);
 }
 
 function gcd(int $a, int $b)
