@@ -27,28 +27,28 @@
 - To start the game, enter the command:
 - make brain-even
 
-<a href="https://asciinema.org/a/aZQDLdmj2BKL5nXwAeSMVlj6m" target="_blank"><img src="https://asciinema.org/a/aZQDLdmj2BKL5nXwAeSMVlj6m.svg" /></a>
+<a href="https://asciinema.org/a/NxiQbPWeqnCKJpC31RoryvggR" target="_blank"><img src="https://asciinema.org/a/NxiQbPWeqnCKJpC31RoryvggR.svg" /></a>
 
 ### Game Brain Calc
 - To start the game, enter the command:
 - make brain-calc
 
-<a href="https://asciinema.org/a/aO7GMOPwGerIeT72lZ36RoPAq" target="_blank"><img src="https://asciinema.org/a/aO7GMOPwGerIeT72lZ36RoPAq.svg" /></a>
+<a href="https://asciinema.org/a/ju6iH6ZhtD7RrJz4BZYu50x77" target="_blank"><img src="https://asciinema.org/a/ju6iH6ZhtD7RrJz4BZYu50x77.svg" /></a>
 
 ### Game Brain Gcd
 - To start the game, enter the command:
 - make brain-gcd
 
-<a href="https://asciinema.org/a/cj8Vvixc0imBXQngKab1w9wng" target="_blank"><img src="https://asciinema.org/a/cj8Vvixc0imBXQngKab1w9wng.svg" /></a>
+<a href="https://asciinema.org/a/eriv8drjh2qSnr9kIqkDA1EcG" target="_blank"><img src="https://asciinema.org/a/eriv8drjh2qSnr9kIqkDA1EcG.svg" /></a>
 
 ### Game Brain progression
 - To start the game, enter the command:
 - make brain-progression
 
-<a href="https://asciinema.org/a/ufdSKKOg3uJhTfT3WwIBlF4Aa" target="_blank"><img src="https://asciinema.org/a/ufdSKKOg3uJhTfT3WwIBlF4Aa.svg" /></a>
+<a href="https://asciinema.org/a/9lxzSrcF1L3Oj84i6CQsDzbOp" target="_blank"><img src="https://asciinema.org/a/9lxzSrcF1L3Oj84i6CQsDzbOp.svg" /></a>
 
 ### Game Brain prime
 - To start the game, enter the command:
 - make brain-prime
 
-<a href="https://asciinema.org/a/n42GVyOwiedNMoaYHkqj0O2rk" target="_blank"><img src="https://asciinema.org/a/n42GVyOwiedNMoaYHkqj0O2rk.svg" /></a>
+<a href="https://asciinema.org/a/tXLi5067XiEHLTnbY8zEyUglQ" target="_blank"><img src="https://asciinema.org/a/tXLi5067XiEHLTnbY8zEyUglQ.svg" /></a>
